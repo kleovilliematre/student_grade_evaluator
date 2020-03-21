@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grade Evaluator</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="intro">
+            <h1 class="stud">Student Grade Evaluator</h1>
+            <form>
+                <table>
+                    <tr>
+                        <th>Student Name:</th>
+                        <td><input type="text" name="studentname"></td>
+                    </tr>
+                    <tr>
+                        <th>List of Subjects:</th>
+                    </tr>
+                    <tr>
+                        <th>Subject Title</th>
+                        <th>Grades</th>
+                        <th>Remarks</th>
+                    </tr>
+                    <tr>
+                        <th> Math</th>
+                        <td><input type="text" id="math"></td>
+                        <th><p id="evaluation1">Evaluation</p></th>
+                    </tr>
+                    <tr>
+                        <th>Science</th>
+                        <td><input type="text" id="science"></td>
+                        <th><p id="evaluation2"> Evaluation</p></th></td>
+                    </tr>
+                    <tr>
+                        <th>English</th>
+                        <td><input type="text" id="english"></td>
+                        <th><p id="evaluation3">Evaluation</p></th>
+                    </tr>
+                    <tr>
+                        <th>Filipino</th>
+                        <td><input type="text" id="filipino"></td>
+                        <th><p id="evaluation4">Evaluation</p></th>
+                    </tr>
+                    <tr>
+                        <th>P.E</th>
+                        <td><input type="text" id="pe"></td>
+                        <th><p id="evaluation5">Evaluation</p></th>
+                    </tr>
+                    <tr>
+                        <th>Student Rank:</th>
+                        <th id="rank">Rank Here</th>
+                    </tr>
+                    <tr>
+                       <td><a class="btn-get started" onclick="evalGrade()" ><span></span>Evaluate</a></td>
+                    </tr>
+                </table>              
+            </form>
+        </div>
+    </div>
+
+
+</body>
+<script src="js/main.js"></script>
+</html>
